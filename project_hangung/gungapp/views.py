@@ -5,5 +5,5 @@ import random
 from datetime import datetime
 
 
-def gung(request):
-    return render(request, 'main.html')
+def gyungbokgung(request):
+    return render(request, 'gyungbokgung.html')
