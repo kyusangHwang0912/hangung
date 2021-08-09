@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Grayscale - Start Bootstrap Theme</title>
+        {% block title %}{% endblock title %}
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -20,16 +20,19 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">{{gung}}</a>
+                <a style="color:black;" class="navbar-brand" href="/mainapp/">Home</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#rentalmap">한복대여점(Hanbokrental)</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#cafeteria">cafeteria</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link" href="#page-top">경복궁</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link" href="#photo">사진</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link" href="#mainmap">지도</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link" href="#rentalshop">한복대여점(Hanbokrental)</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link" href="#cafeteria">cafeteria</a></li>
+                        <li class="nav-item"><a style="color:black;" class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
