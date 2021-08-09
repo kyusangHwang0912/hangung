@@ -1,1 +1,292 @@
 {% extends 'index.html' %}
+{% block content %}
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Home</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#Services">주요서비스</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Information">궁</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#details">상세정보</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Team">팀</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/forum/">게시판</a></li>
+                    </ul>
+                </div>
+        <!-- Google 번역 -->
+            <div id="google_translate_element" class="hd_lang"></div>
+                <script>
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'ko',
+                            includedLanguages: 'ko,en,zh-CN,zh-TW,ja,vi,th,tl,km,my,mn,ru,fr,ar',
+                            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                            autoDisplay: false
+                        }, 'google_translate_element');
+                    }
+                </script>
+                <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </div>
+
+        </nav>
+
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">한궁</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Services-->
+        <section class="page-section" id="Services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">사이트가 제공하는 서비스</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a class="nav-link" href="Information">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="far fa-info fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </a>
+                        <h4 class="my-3">정보</h4>
+                        <p class="text-muted">서울시내 고궁 방문전에<br>고궁들에 대해 알아보세요</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="far fa-calendar-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">공지사항</h4>
+                        <p class="text-muted">서울시내 고궁들의<br>공지사항을 확인하세요</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-book-open fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">게시판</h4>
+                        <p class="text-muted">방문고객들과의 정보공유를 위한<br>페이지를 제공합니다</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Information -->
+        <section class="page-section bg-light" id="Information">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">궁</h2>
+                    <h3 class="section-subheading text-muted">클릭하면 상세페이지로 이동합니다.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 mb-6">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" href="/gungapp/gyungbokgung/">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="/static/asset/경복궁.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">경복궁</div>
+                                <div class="portfolio-caption-subheading text-muted">Gyeongbok palace</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 mb-6">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="/gungapp/changdukgung/">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="/static/asset/창덕궁.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">창덕궁</div>
+                                <div class="portfolio-caption-subheading text-muted">Changdeok palace</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6 mb-6 mb-lg-0">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="/gungapp/changgyunggung/">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="/static/asset/창경궁.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">창경궁</div>
+                                <div class="portfolio-caption-subheading text-muted">Changgyeong palace</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 mb-6 mb-sm-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="/gungapp/duksugung">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="/static/asset/덕수궁.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">덕수궁</div>
+                                <div class="portfolio-caption-subheading text-muted">Deoksu Palace</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--상세기능-->
+        <section class="page-section" id="details">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">상세정보</h2>
+                    <h3 class="section-subheading text-muted">사이트에서 이 모든 것이 가능합니다</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><i style="width:60%;height:100%;vertical-align:middle" class="fas fa-solar-panel"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><br></h4>
+                                <h4 style="font-weight:bolder" class="subheading">서울 4대 궁 상세페이지</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">각각 서울 4대 궁의 상세페이지에서<br> 정보를 얻을 수 있습니다.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><i style="width:60%;height:100%;vertical-align:middle" class="far fa-clock"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><br></h4>
+                                <h4 style="font-weight:bolder" class="subheading">예약</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">궁 투어를 위한 예약페이지로<br> 손쉽게 이동할 수 있습니다.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><i style="width:60%;height:100%;vertical-align:middle" class="fas fa-tshirt"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><br></h4>
+                                <h4 style="font-weight:bolder" class="subheading">한복대여점 정보 제공</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">지도를 통해 근처 한복대여점의 위치와 <br>기본정보를 확인할 수 있습니다.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><i style="width:60%;height:100%;vertical-align:middle" class="fas fa-calendar-alt"></i></div>
+                        <div class="timeline-panel">
+                            <div  class="timeline-heading">
+                                <h4><br></h4>
+                                <h4 style="font-weight:bolder" class="subheading">공지사항 및 이벤트</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">각 고궁들의 공지사항과 이벤트들을 살펴볼 수 있습니다.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><i style="width:60%;height:100%;vertical-align:middle" class="fas fa-language"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><br></h4>
+                                <h4 style="font-weight:bolder" class="subheading">번역 시스템</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">다양한 언어로 사이트를 살펴볼 수 있습니다.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><i style="width:60%;height:100%;vertical-align:middle" class="fas fa-users"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4><br></h4>
+                                <h4 style="font-weight:bolder" class="subheading">게시판</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">방문객들과 다양한 정보를 공유할 수 있습니다.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4></h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="Team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">팀 정보</h2>
+                    <h3 class="section-subheading text-muted">깃허브주소와 상세소개</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                            <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="/static/asset/profile1.png" alt="..." />
+                            <h4>김영훈</h4>
+                            <p class="text-muted">Lead Designer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-id-card"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="/static/asset/profile2.png" alt="..." />
+                            <h4>박민국</h4>
+                            <p class="text-muted">Lead Marketer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-id-card"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="team-member">
+                            <img class="mx-3 rounded-circle" src="/static/asset/profile3.png" alt="..." />
+                            <h4>하재연</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fas fa-id-card"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="team-member">
+                            <img class="mx-3 rounded-circle" src="/static/asset/profile4.jpeg" alt="..." />
+                            <h4>황규상</h4>
+                            <p class="text-muted">Lead Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" onclick="window.open('address','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');" ><i class="fas fa-id-card"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">인터페이스개발 프로젝트 : Hangung</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/static/js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+{% endblock %}
