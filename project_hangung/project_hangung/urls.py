@@ -20,4 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('mainapp/',include('mainapp.urls')),
     path('gungapp/',include('gungapp.urls')),
+    path('forum/', include('forum.urls')),
+    path('common/', include('common.urls')),
 ]

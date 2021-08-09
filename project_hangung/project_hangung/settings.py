@@ -21,6 +21,7 @@ DATABASES = my_settings.DATABASES
 
 
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -44,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mainapp',
     'gungapp',
+    'forum.apps.ForumConfig',
+    'common.apps.CommonConfig',
 ]
 
 MIDDLEWARE = [
@@ -118,8 +121,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+TEMPLATETAGS_URL = '/templatetags/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_REDIRECT_URL = '/forum'
+LOGOUT_REDIRECT_URL = '/forum'
