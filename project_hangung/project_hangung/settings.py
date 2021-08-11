@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'gungapp',
     'forum.apps.ForumConfig',
     'common.apps.CommonConfig',
+    'project_hangung'
 ]
 
 MIDDLEWARE = [
@@ -127,6 +128,3 @@ TEMPLATETAGS_URL = '/templatetags/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-LOGIN_REDIRECT_URL = '/forum'
-LOGOUT_REDIRECT_URL = '/forum'

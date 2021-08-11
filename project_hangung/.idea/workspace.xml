@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d01a332c-dd85-4bc8-b2af-f90274d1a66c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/gungapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/duksugung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/duksugung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wXV23uwQQpmmVlLM21VBsxiO5h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gungapp" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\Project\hangung\project_hangung\gungapp" />
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\asset" />
+      <recent name="C:\git\Project\hangung\project_hangung\mainapp\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\js" />
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\css" />
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung" />
+      <recent name="C:\git\Project\hangung\project_hangung\mainapp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d01a332c-dd85-4bc8-b2af-f90274d1a66c" name="Default Changelist" comment="" />
+      <created>1628604713845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628604713845</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
