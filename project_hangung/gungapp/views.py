@@ -7,11 +7,31 @@ from datetime import datetime
 
 def gyungbokgung(request):
     gung = request.GET.get('gung', '경복궁')
-    latitude = request.GET.get('lat', 37.579634)
-    longitude = request.GET.get('long', 126.977599)
     contents = {
         'gung': gung,
-        'lat': latitude,
-        'long': longitude
     }
     return render(request, 'gyungbokgung.html', contents)
+
+
+def changdukgung(request):
+    gung = request.GET.get('gung', '창덕궁')
+    contents = {
+        'gung': gung,
+    }
+    return render(request, 'changdukgung.html', contents)
+
+
+def changgyunggung(request):
+    gung = request.GET.get('gung', '창경궁')
+    contents = {
+        'gung': gung,
+    }
+    return render(request, 'changgyunggung.html', contents)
+
+
+def duksugung(request):
+    gung = request.GET.get('gung', '덕수궁')
+    contents = {
+        'gung': gung,
+    }
+    return render(request, 'duksugung.html', contents)
