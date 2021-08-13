@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9b3c19-a988-4485-aa15-368b627cce9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_hangung/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
