@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f9b3c19-a988-4485-aa15-368b627cce9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project_hangung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project_hangung.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/migrations/0002_question_author.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/migrations/0003_answer_author.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/migrations/0004_auto_20210809_1427.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/migrations/0005_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/migrations/0006_auto_20210809_1607.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/templates/answer_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/templates/comment_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/comment_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/templates/question_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/templates/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forum/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/gungapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/static/font/JSArirangHON.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/static/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/duksugung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/duksugung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/gyeongbokgung1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/gyeongbokgung2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/profile1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/profile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/profile3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/profile4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/경복궁.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/덕수궁.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/번역.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/상세페이지.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/예약페이지.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/창경궁.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/창덕궁.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/asset/한복대여점.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/font/JSArirangHON.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/static/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_hangung/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_hangung/templates/gung_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_hangung/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_hangung/templates/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_hangung/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1wa4RqBbMt4qwJ4t6IVWSfrYBqt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project_hangung/static/css" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\css" />
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\asset" />
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\font" />
+      <recent name="C:\git\Project\hangung\project_hangung\forum" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f9b3c19-a988-4485-aa15-368b627cce9d" name="Default Changelist" comment="" />
+      <created>1628683366573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628683366573</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

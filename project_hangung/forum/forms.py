@@ -1,6 +1,6 @@
 from django import forms
 
-from forum.models import Question, Answer, Comment
+from forum.models import Question, Comment
 
 
 class QuestionForm(forms.ModelForm):
@@ -13,13 +13,6 @@ class QuestionForm(forms.ModelForm):
         }
 
 
-class AnswerForm(forms.ModelForm):
-    class Meta:
-        model = Answer
-        fields = ['content']
-        labels = {
-            'content': '답변내용',
-        }
 
 class CommentForm(forms.ModelForm):
     class Meta:

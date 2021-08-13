@@ -47,6 +47,8 @@ INSTALLED_APPS = [
     'gungapp',
     'forum.apps.ForumConfig',
     'common.apps.CommonConfig',
+    'project_hangung'
+
 ]
 
 MIDDLEWARE = [
@@ -128,5 +130,5 @@ TEMPLATETAGS_URL = '/templatetags/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-LOGIN_REDIRECT_URL = '/forum'
-LOGOUT_REDIRECT_URL = '/forum'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(my_settings.BASE_DIR, 'media')
