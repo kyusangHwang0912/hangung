@@ -5,18 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/forum/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/templates/comment_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/comment_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/templates/question_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forum/templates/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gungapp/templates/duksugung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/duksugung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainapp/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_hangung/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_hangung/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_hangung/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/static/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +18,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1wa4RqBbMt4qwJ4t6IVWSfrYBqt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
