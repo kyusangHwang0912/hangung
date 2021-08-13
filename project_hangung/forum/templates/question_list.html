@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 {% load forum_filter %}
 {% block content %}
-<section>
+<section style="padding-top: 9rem;">
 <div class="container my-3">
     <div class="row my-3">
         <div class="col-2">
-            <select class="form-control so">
+            <select style="font-size:0.5em;"  class="form-control so">
                 {% if so == 'recommend' %}
                 <option value="recent">최신순</option>
                 <option value="recommend" selected>추천순</option>
@@ -22,7 +22,7 @@
             </select>
         </div>
         <div class="col-2">
-            <select class="form-control gung">
+            <select style="font-size:0.5em;"  class="form-control gung">
                 {% if gung == 'gyeongbokgung' %}
                 <option value="all">전체</option>
                 <option value="gyeongbokgung" selected>경복궁</option>

@@ -42,20 +42,20 @@
                             {% endif %}
                         </li>
                     </ul>
+                <!-- Google 번역 -->
+                    <div id="google_translate_element" class="hd_lang"></div>
+                        <script>
+                            function googleTranslateElementInit() {
+                                new google.translate.TranslateElement({
+                                    pageLanguage: 'ko',
+                                    includedLanguages: 'ko,en,zh-CN,zh-TW,ja,fr',
+                                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                                    autoDisplay: false
+                                }, 'google_translate_element');
+                            }
+                        </script>
+                    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                 </div>
-        <!-- Google 번역 -->
-            <div id="google_translate_element" class="hd_lang"></div>
-                <script>
-                    function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({
-                            pageLanguage: 'ko',
-                            includedLanguages: 'ko,en,zh-CN,zh-TW,ja,vi,th,tl,km,my,mn,ru,fr,ar',
-                            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                            autoDisplay: false
-                        }, 'google_translate_element');
-                    }
-                </script>
-                <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
             </div>
         </nav>
 {% endblock content %}

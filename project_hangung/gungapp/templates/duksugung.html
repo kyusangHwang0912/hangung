@@ -100,19 +100,19 @@ font-family : 'arirang';
                             {% endif %}
                         </li>
                     </ul>
+                    <div id="google_translate_element" class="hd_lang"></div>
+                    <script>
+                        function googleTranslateElementInit() {
+                            new google.translate.TranslateElement({
+                                pageLanguage: 'ko',
+                                includedLanguages: 'en,zh-CN,zh-TW,ja,fr',
+                                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                                autoDisplay: false
+                            }, 'google_translate_element');
+                        }
+                    </script>
+                    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                 </div>
-                <div id="google_translate_element" class="hd_lang"></div>
-                <script>
-                    function googleTranslateElementInit() {
-                        new google.translate.TranslateElement({
-                            pageLanguage: 'ko',
-                            includedLanguages: 'en,zh-CN,zh-TW,ja,fr',
-                            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                            autoDisplay: false
-                        }, 'google_translate_element');
-                    }
-                </script>
-                <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
             </div>
         </nav>
 {% endblock %}
@@ -234,7 +234,7 @@ font-family : 'arirang';
                 </div>
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6">
-                        <img style="height:500px;" class="card-img-top mb-5 mb-md-0" src="http://www.deoksugung.go.kr/ko/assets/images/inner_map.png" onclick="window.open('http://www.deoksugung.go.kr/ko/assets/images/inner_map.png');" alt="..." />
+                        <img style="height:500px;" class="card-img-top mb-5 mb-md-0" src="/static/asset/덕수궁내부지도.png" onclick="window.open('http://www.deoksugung.go.kr/ko/assets/images/inner_map.png');" alt="..." />
                     </div>
                     <div class="col-md-6">
                         <div id="map" style="width:100%;height:500px;position:relative;overflow:hidden;"></div>
