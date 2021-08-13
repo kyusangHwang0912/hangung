@@ -9,14 +9,21 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = {
+    'secret' : 'django-insecure-^i%ubd3j*h@t*s2qr2!ti9e#7m9de2y7grl)_t=*vc_9hva2kt'
+}
 
 from pathlib import Path
-import os
-import sys
-sys.path.append("./project_hangung")
-import my_settings
-SECRET_KEY = my_settings.SECRET_KEY['secret']
-DATABASES = my_settings.DATABASES
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 
 
@@ -31,7 +38,7 @@ DATABASES = my_settings.DATABASES
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -66,7 +73,7 @@ ROOT_URLCONF = 'project_hangung.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(my_settings.BASE_DIR, 'project_hangung', 'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'project_hangung', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -131,4 +138,4 @@ TEMPLATETAGS_URL = '/templatetags/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(my_settings.BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
