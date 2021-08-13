@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9b3c19-a988-4485-aa15-368b627cce9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/project_hangung/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainapp/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +25,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project_hangung/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project_hangung/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\Project\hangung\project_hangung\project_hangung\templates" />
       <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\css" />
       <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\asset" />
       <recent name="C:\git\Project\hangung\project_hangung\project_hangung\static\font" />
