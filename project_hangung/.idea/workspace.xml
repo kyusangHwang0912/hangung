@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="0f9b3c19-a988-4485-aa15-368b627cce9d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changdukgung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/changgyunggung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/duksugung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/duksugung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainapp/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainapp/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_hangung/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
