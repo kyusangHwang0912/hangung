@@ -25,7 +25,7 @@
                         {{ question.content }}
                     <div class="card-text" style="height:100%;white-space: pre-line;">
                     {% for data in question.image_set.all %}
-                        <img src="{{data.photo.url}}" style="width:100%;height:auto;">
+                        <img src="{{data.photo.url}}" style="width:80%;height:auto;">
                     {% endfor %}
                     </div>
                     </div>
