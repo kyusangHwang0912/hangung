@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9b3c19-a988-4485-aa15-368b627cce9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/common/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/templates/comment_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/comment_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/templates/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/templates/question_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forum/templates/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/forum/templates/question_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_hangung/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/project_hangung/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" beforeDir="false" afterPath="$PROJECT_DIR$/gungapp/templates/gyungbokgung.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
