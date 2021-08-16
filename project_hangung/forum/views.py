@@ -59,8 +59,7 @@ def index(request):
         question_list = question_list.filter(
             Q(subject__icontains=kw) |  # 제목검색
             Q(content__icontains=kw) |  # 내용검색
-            Q(author__username__icontains=kw) |  # 질문 글쓴이검색
-            Q(answer__author__username__icontains=kw)  # 답변 글쓴이검색
+            Q(author__username__icontains=kw)  # 질문 글쓴이검색
         ).distinct()
 
     # 페이징처리
